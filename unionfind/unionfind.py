@@ -7,8 +7,8 @@ class UnionFind:
 	'''
 
 	def __init__(self):
-		self.__mapping = dict()	# maps a hashable object X to a node i
-		self.__parent = []		# parent[i] represents the parent of node i, unless node i is a root, then parent[i] is the negative rank of node i
+		self.__mapping = dict()		# maps a hashable object X to a node i
+		self.__parent = []			# parent[i] represents the parent of node i, unless node i is a root, then parent[i] is the negative rank of node i
 
 
 	def add(self, *items):
